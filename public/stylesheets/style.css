@@ -1,14 +1,11 @@
-body {
-  font-family: 'Playfair Display', serif;
+.content {
+  background-color: lightblue;
 }
 
 h1 {
   text-align: center;
 }
 
-.navigation {
-
-}
 
 #right-side {
   text-align: right;

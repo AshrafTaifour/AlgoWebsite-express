@@ -13,45 +13,56 @@
 </head>
 <body>
 
-    <h1>Data structures and Algorithms made simple!</h1>
-
-    <div class="navigation">
-    	<ul>
-            <li><a href="index.html"> Home </a></li>
-            <li><a href="dataStructures.html"> Data Structures </a></li>
-            <li><a href="algorithms.html"> Algorithms </a></li>
-
-
-          <form id="right-side" method="POST">
-  				<input name="text">
-  				<input type="submit" value="Search">
-          </form>
-
-     </div>
-
-        <hr> <!-- horizontal line-->
-
-
-
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">EZ Algo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
     
-    <section>
-        <h2>About</h2>
-        <p>Welcome to Lorem ipsum, this website is used to simplify Data structures and Algorithms hope it helps!</p>
-        <!-- can't use < or > as it as a special html keyword/symbol html entity is what we use if we want to use em do so by &# followed by code for the symbol-->
-        <!-- meaningless elements: div (separated), span (inline won't be separated) -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="dataStructures.html">Data Structures</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="algorithms.html">Algorithms</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        </div>
+    </nav>
 
-        <br>
+    <div class="container">
 
-        <p>Q: Why Data structures and Algorithms? </p>
-        <br>
-        <p>A: Well, if you'd like to design or create a particular program, knowing how your data is stored, and what algorthims to use will make your program more efficient. 
-            In addition to that, a lot of interviews for Software Engineering positions are centered around Data structures and algorthims, so it can potentially help you get a job!. 
-        </p>
+        <h1 class="display-4">Data structures and Algorithms made simple!</h1>
+        
+        <section>
+            <h2>About</h2>
+            <p>Welcome to Lorem ipsum, this website is used to simplify Data structures and Algorithms hope it helps!</p>
+            <!-- can't use < or > as it as a special html keyword/symbol html entity is what we use if we want to use em do so by &# followed by code for the symbol-->
+            <!-- meaningless elements: div (separated), span (inline won't be separated) -->
 
-        <!-- insert the quora algorthim picture-->
+            <br>
 
-    </section>
+            <p>Q: Why Data structures and Algorithms? </p>
+            <br>
+            <p>A: Well, if you'd like to design or create a particular program, knowing how your data is stored, and what algorthims to use will make your program more efficient. 
+                In addition to that, a lot of interviews for Software Engineering positions are centered around Data structures and algorthims, so it can potentially help you get a job!. 
+            </p>
+
+            <!-- insert the quora algorthim picture-->
+
+        </section>
+
+    </div>
+
+
 
     <footer> <!-- Link your github and JJAYL's Github on here, in addition to your linkedin?--> 
 
