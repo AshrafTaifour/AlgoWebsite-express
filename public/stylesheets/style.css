@@ -34,11 +34,20 @@ img {
   text-align: center;
 }
 
-.display-3 {
+.display-3 { /* TITLE OF PAGE */
   text-align: center;
+  padding-bottom: 2.5%;
 }
 
 .btn-lg { /* Center button */
   position: absolute;
   margin: 0 40%;
+}
+
+p { /* index text */
+  text-align: center;
+}
+
+h2 { /*About in index.html */
+  padding-top: 2.5%;
 }
