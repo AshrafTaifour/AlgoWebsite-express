@@ -1,0 +1,15 @@
+1) NavBar
+    DONE
+2) Homepage (mostly done)
+
+    footer for all pages
+    navbar available when scrolling?
+
+3)DS / Algos
+    
+    Get started Button: Choose what you want to learn about first
+    Grid system 3 items per row?
+    picture with link?
+    
+    come up with a way to explain DS/Algos Written/Visual/Auditory?/Kinesthetic?
+    
