@@ -6,7 +6,9 @@
     navbar available when scrolling?
 
 3)DS / Algos
-    
+
+
+    An HTML page for every algo/ds?
     Get started Button: Choose what you want to learn about first
     Grid system 3 items per row?
     picture with link?
