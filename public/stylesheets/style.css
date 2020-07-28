@@ -51,3 +51,12 @@ p { /* index text */
 h2 { /*About in index.html */
   padding-top: 2.5%;
 }
+
+#footer {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin: 0 auto;
+  padding: 0 30px;
+  background-color: black;
+  padding: 0 200px;
+}

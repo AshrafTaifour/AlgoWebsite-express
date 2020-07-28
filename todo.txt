@@ -2,7 +2,7 @@
     DONE
 2) Homepage (mostly done)
 
-    footer for all pages
+    footer for all pages (Started)
     navbar available when scrolling?
 
 3)DS / Algos
