@@ -24,17 +24,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 express.static(root, ['html']); //middleware function, used to serve static files (images,css files, js files)
 app.use(express.static('public')); // 
 
-app.get('/', function (req, res) {
-  res.send('Hello World!')
-})
-
 app.use('/', routes);
 app.use('/users', users);
 
-
-app.get('/toto', function (req, res) {
-  res.send('Hello Toto!')
-})
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
