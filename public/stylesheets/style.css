@@ -2,6 +2,7 @@ img {
   display: block;
   max-width: 100%;  /* Responsive */ 
 } 
+
 .background {
 
   position: relative;
@@ -53,10 +54,12 @@ h2 { /*About in index.html */
 }
 
 #footer {
-  max-width: -webkit-calc(800px - (30px * 2));
+  /*max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin: 0 auto;
   padding: 0 30px;
-  background-color: black;
-  padding: 0 200px;
+  background-color:rgb(40, 40, 40);
+  padding: 0 200px;*/
+
+  flex-shrink: 0;
 }
